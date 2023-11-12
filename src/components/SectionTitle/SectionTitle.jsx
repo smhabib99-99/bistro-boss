@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const SectionTitle = ({subHeading,heading}) => {
     return (
@@ -10,3 +10,8 @@ const SectionTitle = ({subHeading,heading}) => {
 };
 
 export default SectionTitle;
+
+SectionTitle.propTypes = {
+    heading: PropTypes.node,
+    subHeading: PropTypes.node
+  };
