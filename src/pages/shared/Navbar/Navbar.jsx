@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
     const navButton = <>
+
+        <li><Link to="/">Home</Link></li>
         <li><Link to="/menu">Our Menu</Link></li>
+        <li><Link to="/order">Order</Link></li>
+
         {/* <li>
             <a>Parent</a>
             <ul className="p-2">
@@ -12,7 +16,7 @@ const Navbar = () => {
                 <li><a>Submenu 2</a></li>
             </ul>
         </li> */}
-        <li><a>Item 3</a></li>
+        {/* <li><a>Item 3</a></li> */}
     </>
 
 
