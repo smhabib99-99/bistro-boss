@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
 
     const navButton = <>
-        <li><a>Item 555</a></li>
-        <li>
+        <li><Link to="/menu">Our Menu</Link></li>
+        {/* <li>
             <a>Parent</a>
             <ul className="p-2">
                 <li><a>Submenu 1</a></li>
                 <li><a>Submenu 2</a></li>
             </ul>
-        </li>
+        </li> */}
         <li><a>Item 3</a></li>
     </>
 
